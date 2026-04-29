@@ -3,17 +3,23 @@
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  padding: 1.5rem;
+  padding: 1.25rem 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.5rem;
   transition: transform 0.2s, box-shadow 0.2s;
-  position: relative;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.14);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
 }
 
 .badge {
@@ -22,47 +28,66 @@
   color: #4a90e2;
   font-size: 0.75rem;
   font-weight: 700;
-  padding: 0.2rem 0.6rem;
+  padding: 0.2rem 0.65rem;
   border-radius: 20px;
-  align-self: flex-start;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.editButton,
+.deleteButton {
+  padding: 0.3rem 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.editButton {
+  background-color: #f0f4ff;
+  color: #4a90e2;
+}
+
+.editButton:hover {
+  background-color: #dde8ff;
+}
+
+.deleteButton {
+  background-color: #fff0f0;
+  color: #e74c3c;
+}
+
+.deleteButton:hover {
+  background-color: #ffd9d9;
 }
 
 .name {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #1a1a2e;
   margin: 0;
 }
 
 .area {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: #666;
   margin: 0;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0.5rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid #f0f0f0;
-}
-
-.rooms {
-  font-size: 0.88rem;
-  color: #555;
-  font-weight: 500;
-}
-
 .rent {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #e74c3c;
+  margin: 0.25rem 0 0;
 }
 
-.rent small {
-  font-size: 0.75rem;
+.perMonth {
+  font-size: 0.78rem;
   font-weight: 400;
-  color: #888;
+  color: #999;
 }
