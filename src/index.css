@@ -1,0 +1,15 @@
+/* グローバルリセットと基本スタイル */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+
+a {
+  color: inherit;
+}

@@ -1,0 +1,27 @@
+# 環境変数（Supabase認証情報を含む）
+.env
+.env.local
+.env.*.local
+
+# 依存パッケージ
+node_modules/
+
+# ビルド成果物
+dist/
+dist-ssr/
+
+# エディタ・OS
+*.local
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite
+vite.config.js.timestamp-*
