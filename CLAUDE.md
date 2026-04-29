@@ -35,6 +35,11 @@ npm run preview  # ビルド成果物のプレビュー
 
 CSS Modules（`.module.css`）を採用。認証フォーム共通スタイルは `src/pages/Auth.module.css` に集約し、`Login.jsx` と `Register.jsx` が共有する。
 
+## デプロイ情報
+
+- 本番URL：https://realestate-app-two.vercel.app
+- Supabaseプロジェクト名：realestate-app
+
 ## Git運用ルール
 
 **コードを変更するたびに、必ずGitHubにプッシュすること。**
